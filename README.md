@@ -1,4 +1,4 @@
-# Hello eveeryone :) Welcome to my blog!
+# Hello everyone :) Welcome to my blog!
 + Site: 
 ```
 mytimeflows.com
