@@ -797,6 +797,7 @@ button {
   transition-timing-function: ease, ease, ease, ease, linear;
 }
 .btn:hover {
+  transform: scaleX(1.06) scaleY(1.06);
   box-shadow: var(--redefine-box-shadow-hover);
 }
 .btn:hover {
@@ -1357,7 +1358,7 @@ pre,
 }
 pre,
 code {
-  font-family: "Ubuntu Mono", Courier, monospace;
+  font-family: 'YaHei Consolas Hybrid', "Ubuntu Mono", Courier, monospace;
 }
 code {
   padding: 4px;
@@ -3186,6 +3187,27 @@ pre .deletion {
   transform: scale(0.72);
   transform-origin: left;
 }
+.menu-wrapper .menu-content .left .logo-image {
+  width: 46px;
+  height: 46px;
+  margin-right: 8px;
+}
+@media (max-width: 780px) {
+  .menu-wrapper .menu-content .left .logo-image {
+    width: 41.4px;
+    height: 41.4px;
+  }
+}
+@media (max-width: 500px) {
+  .menu-wrapper .menu-content .left .logo-image {
+    width: 36.800000000000004px;
+    height: 36.800000000000004px;
+  }
+}
+.menu-wrapper .menu-content .left .logo-image img {
+  border-radius: 6px;
+  width: 100%;
+}
 .menu-wrapper .menu-content .left .logo-title {
   font-size: 2rem;
   font-family: "Optima Bold", sans-serif;
@@ -3552,6 +3574,7 @@ pre .deletion {
   margin-bottom: 0;
 }
 .post-tools-container .tools-list li:hover {
+  transform: scaleX(1.06) scaleY(1.06);
   box-shadow: var(--redefine-box-shadow-hover);
 }
 .post-tools-container .tools-list li.page-aside-toggle {
@@ -5758,6 +5781,7 @@ pre .deletion {
   }
 }
 .home-content-container .home-article-list .home-article-item:hover {
+  transform: scaleX(1.015) scaleY(1.015);
   box-shadow: var(--redefine-box-shadow-hover);
 }
 @media (max-width: 780px) {
@@ -6407,6 +6431,7 @@ pre .deletion {
 }
 .post-page-container .article-content-container .article-nav .article-prev:hover,
 .post-page-container .article-content-container .article-nav .article-next:hover {
+  transform: scaleX(1.03) scaleY(1.03);
   box-shadow: var(--redefine-box-shadow-hover);
 }
 @media (max-width: 780px) {
