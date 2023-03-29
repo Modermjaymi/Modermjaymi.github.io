@@ -122,6 +122,11 @@
       </tags>
   </entry>
   <entry>
+    <title>倍增</title>
+    <url>/2023/03/29/%E5%80%8D%E5%A2%9E/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>0x04 二分</title>
     <url>/2023/03/10/%E4%BA%8C%E5%88%86/</url>
     <content><![CDATA[<h2 id="整数集合上的二分"><a href="#整数集合上的二分" class="headerlink" title="整数集合上的二分"></a>整数集合上的二分</h2><p>有一个数x，想要找<code>比x大的数中最小的</code>与<code>比x小的数中最大的</code>求法不同。各有自己的求法：</p>
